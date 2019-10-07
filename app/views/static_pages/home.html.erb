@@ -1,2 +1,16 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title)%>
+
+<! DOCTYPE html>
+
+<html>
+  <head>
+    <title><%=yield(:title)%></title>
+  </head>
+  <body>
+    <h1>Certifable Repos</h1>
+    <p>
+      This is the home page for the 
+    <a href="#" >Certifable quality certificate repo</a> web app.
+    </p>
+</body>
+</html>
