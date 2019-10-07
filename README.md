@@ -1,9 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the certifable web app 
+the  only quality certificates depositary
 
-Things you may want to cover:
 
 * Ruby version
 
