@@ -1,16 +1,17 @@
 <% provide(:title)%>
 
-<! DOCTYPE html>
 
 <html>
   <head>
     <title><%=yield(:title)%></title>
   </head>
   <body>
-    <h1>Certifable Repos</h1>
-    <p>
-      This is the home page for the 
-    <a href="#" >Certifable quality certificate repo</a> web app.
-    </p>
+    <div class="center jumbotron">
+      <h1>Certifable Repos</h1>
+      <h2> This is the home page of the quality certificates repo</h2>
+      <%= link_to "Sign up now!",'signup_path',class:"btn btn-lg btn-primary" %> 
+      <br>
+      <br>
 </body>
+      <%= link_to image_tag("rails.png",alt:"Certifable logo"),"#" %>
 </html>
