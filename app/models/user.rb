@@ -10,7 +10,7 @@ class User < ApplicationRecord
 
   has_secure_password
   validates :password,presence: true,length: 
-    {minimum:4}
+    {minimum:4},allow_nil: true
 
   #returns the hash digest of the ginen string 
    def User.digest(string)
