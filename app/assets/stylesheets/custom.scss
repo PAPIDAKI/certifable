@@ -2,7 +2,7 @@
 @import 'bootstrap';
 
 $grey-medium-light: #eaeaea;
-
+$grey-lighter: red;
 
 /* universal */
 body {
@@ -78,6 +78,7 @@ footer {
  padding-top: 5px;
  border-top: 2px solid #eaeaea;
 }
+
 
 footer a {
   color:#555;
@@ -193,5 +194,19 @@ p{
   @extend .has-error;
   .form-control {
     color:$state-danger-text;
+  }
+
+
+  /* Users index*/ k
+.users {
+    
+    list-style-type: none;
+    margin: 0;
+    
+    li{
+      overflow: auto;
+      padding: 10px 0;
+      border-bottom: 1px solid red;
+    }
   }
 }
