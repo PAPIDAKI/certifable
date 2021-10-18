@@ -9,6 +9,9 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def delete_me
 
   end
 end

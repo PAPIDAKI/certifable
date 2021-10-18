@@ -1,10 +1,12 @@
 
     <header class="navbar navbar-fixed-top ">
       <div class='container'>
-        <%=link_to 'certifable',root_path,id:'logo',class:"navbar-logo"%>
+        <%=link_to 'seu',root_path,id:'logo',class:"navbar-logo"%>
         <nav>
           <ul class='nav navbar-nav navbar-right'>
             <li><%=link_to "Home",root_path %></li>
+            <li><%=link_to "About",about_path%></li>
+            <li><%=link_to "Contact",contact_path %></li>
             <li><%=link_to "Help",help_path %></li>
             <% if logged_in? %>
               <li><%=link_to current_user.email ,user_path(current_user) %></li>
